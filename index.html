@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            text-align: center; /* Wyśrodkuj obrazy w kontenerze */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .left-align {
+            text-align: left; /* Wyśrodkuj obrazy i tekst w tej klasie */
+            display: flex;
+            align-items: flex-start; /* Wyrównaj do góry */
+        }
+
+        .image {
+            display: inline-block; /* Wyświetl obrazy i tekst w jednym rzędzie */
+            margin: 10px; /* Dodaj odstęp między elementami */
+        }
+
+        .image img {
+            display: block; /* Upewnij się, że obrazy są wyświetlane jako bloki */
+        }
+
+        .left-align p {
+            margin-right: 50px; /* Zmniejsz prawy margines tekstu do 50 pikseli */
+            margin-top: 0; /* Usuń domyślny margines górny */
+            margin-bottom: 0; /* Usuń domyślny margines dolny */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="image1.jpg" alt="Image 1">
+        </div>
+        <div class="image">
+            <img src="image2.jpg" alt="Image 2">
+        </div>
+    </div>
+    <div class="left-align">
+        <div class="image">
+            <img src="images/image with frame3.jpeg" alt="Image 3">
+        </div>
+        <div class="image">
+            <p> Krocz spokojnie wśród zgiełku i pośpiechu - pamiętaj jaki pokój może być w ciszy. Tak dalece jak to możliwe nie wyrzekając się siebie, bądź w dobrych stosunkach z innymi ludźmi. Prawdę swą głoś spokojnie i jasno, słuchaj też tego co mówią inni, nawet głupcy i ignoranci, oni też mają swoją opowieść. Jeśli porównujesz się z innymi możesz stać się próżny lub zgorzkniały, albowiem zawsze będą lepsi i gorsi od ciebie.
+
+                Ciesz się zarówno swymi osiągnięciami jak i planami. Wykonuj z sercem swą pracę, jakakolwiek by była skromna. Jest ona trwałą wartością w zmiennych kolejach losu. Zachowaj ostrożność w swych przedsięwzięciach - świat bowiem pełen jest oszustwa. Lecz niech ci to nie przesłania prawdziwej cnoty, wielu ludzi dąży do wzniosłych ideałów i wszędzie życie pełne jest heroizmu.
+           
+                Bądź sobą, a zwłaszcza nie zwalczaj uczuć: nie bądź cyniczny wobec miłości, albowiem w obliczu wszelkiej oschłości i rozczarowań jest ona wieczna jak trawa. Przyjmuj pogodnie to co lata niosą, bez goryczy wyrzekając się przymiotów młodości. Rozwijaj siłę ducha by w nagłym nieszczęściu mogła być tarczą dla ciebie. Lecz nie dręcz się tworami wyobraźni. Wiele obaw rodzi się ze znużenia i samotności.
+           
+                Jesteś dzieckiem wszechświata, nie mniej niż gwiazdy i drzewa, masz prawo być tutaj i czy jest to dla ciebie jasne czy nie, nie wątp, że wszechświat jest taki jaki być powinien.
+           
+                Tak więc bądź w pokoju z Bogiem, cokolwiek myślisz i czymkolwiek się zajmujesz i jakiekolwiek są twe pragnienia: w zgiełku ulicznym, zamęcie życia, zachowaj pokój ze swą duszą. Z całym swym zakłamaniem, znojem i rozwianymi marzeniami ciągle jeszcze ten świat jest piękny. Bądź uważny, staraj się być szczęśliwy. </p>
+        </div>
+    </div>
+    <div class="left-align">
+        <div class="image">
+            <img src="image4.jpg" alt="Image 4">
+        </div>
+    </div>
+    <div class="left-align">
+        <div class="image">
+            <img src="image5.jpg" alt="Image 5">
+        </div>
+    </div>
+    <div class="container">
+        <div class="image">
+            <img src="image6.jpg" alt="Image 6">
+        </div>
+        <div class="image">
+            <img src="image7.jpg" alt="Image 7">
+        </div>
+    </div>
+</body>
+</html>

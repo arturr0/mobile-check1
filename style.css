@@ -1,0 +1,27 @@
+body {
+    background-color: #4b92a3; /* Replace with your desired background color */
+    margin: 0; /* Remove default margin to fill the entire viewport */
+    padding: 0; /* Remove default padding to fill the entire viewport */
+}
+#container {
+    display: flex;
+    flex-direction: column; /* Set the direction to column for vertical layout */
+    /*align-items: center; /* Center the images horizontally */
+    /*justify-content: center; /* Center the images vertically */
+    /*height: 100vh; /* Use 100% of the viewport height */
+}
+#dude {
+    display: flex;
+    /*flex-direction: column; /* Set the direction to column for vertical layout */
+    align-items: center; /* Center the images horizontally */
+    /*justify-content: center; /* Center the images vertically */
+    /*height: 100vh; /* Use 100% of the viewport height */
+}
+#image text {
+    display: flex;
+    flex-direction: row; /* Set the direction to column for vertical layout */
+    /*align-items: center; /* Center the images horizontally */
+    /*justify-content: center; /* Center the images vertically */
+    /*height: 100vh; /* Use 100% of the viewport height */
+}
+
